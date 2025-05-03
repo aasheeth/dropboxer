@@ -1,0 +1,7 @@
+[project]
+name = "dropboxer"
+version = "0.1.0"
+
+[project.entry-points."dropboxer.storage"]
+local = "storage_local.storage:LocalStorage"
+db = "storage_db.storage:DBStorage"

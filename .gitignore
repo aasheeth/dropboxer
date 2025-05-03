@@ -1,0 +1,37 @@
+# React
+node_modules/
+build/
+dist/
+.env
+
+# FastAPI / Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+*.mypy_cache/
+*.pytest_cache/
+*.venv/
+venv/
+env/
+ENV/
+Pipfile.lock
+
+# Alembic
+alembic/versions/
+alembic.ini
+
+# System
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Env files
+.env
+.env.*
